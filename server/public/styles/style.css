@@ -224,7 +224,9 @@ hr{
 
 .card-2{
     float: right;
-    transform: translateY(-616px);
+    position: absolute;
+    top: 48px;
+    right: 20px;
 }
 
 #home-link{
