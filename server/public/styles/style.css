@@ -1,0 +1,237 @@
+#photo-container{
+    position: relative;
+    height: 100vh;
+    background-color: #f6f6f6;
+    float: right;
+    width: 50%;
+    justify-content:center; 
+    align-items:center;
+    overflow:hidden
+}
+
+img{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    float: left;
+    display: block;
+    vertical-align: middle;
+}  
+
+@keyframes slider {
+0%{ 
+    left: 0;
+}
+4%{
+    left: 0;
+}
+12%{
+    left: -100%;
+}
+16%{
+    left: -100%;
+}
+24%{
+    left: -200%;
+}
+28%{
+    left: -200%;
+}
+36%{
+    left: -300%;
+}
+40%{
+    left: -300%;
+}
+48%{
+    left: -400%;  
+}
+52%{
+    left: -400%;
+}
+60%{
+    left: -500%;
+}
+64%{
+    left: -500%;
+}
+72%{
+    left: -600%;
+}
+76%{
+    left: -600%;
+}
+84%{
+    left: -700%;
+} 
+88%{
+    left: 0;
+}
+}
+
+#slider{
+    overflow: hidden;
+} 
+
+#slider figure img{
+    width: 12.5%;
+    /* width: 14.285%; */
+    float: left;
+}
+
+#slider figure{
+    position: relative;
+    width: 800%;
+    /* width: 700%; */
+    margin: 0;
+    left: 0;
+    animation: 45s slider infinite;
+}
+
+#paragraph{
+    float: left;
+    transform: translateY(-490px);
+    width: 50%;
+}
+
+#name{
+    font-family: 'Josefin Slab', serif;
+    font-size: 27px;
+    margin-left: 20px;
+    color: #000080;
+    padding: 40px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 120%;
+}
+
+#description{
+    color: #7f7fbf;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: -50px;
+    padding: 40px;
+    line-height: 115%;
+}
+
+#menu{
+    list-style-type:none;
+    position:relative;
+    display: inline;
+    margin-left: 20px;
+}
+
+li{
+    display: inline;
+    padding-right: 35px;
+    color:#000059;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+li:hover{
+    font-size: 11px;
+}
+
+a{
+    text-decoration: none;
+    color:#000059;
+}
+
+#quote{
+    width: 20%;
+    transform: translateY(-550px);
+    color: #cccce5;
+    margin-left: 60px;
+    padding-right: 50px;
+    font-size: 10px;
+    line-height: 130%;
+}
+
+#author{
+    float: right;
+    margin-right: 20px;
+    transform: translateY(10px);
+}
+
+#card{
+    width: 50%;
+    margin-top: -20px; 
+}
+
+h3{
+    font-family: 'Josefin Slab', serif;
+    color: #000080;
+    margin-left: 30px;
+}
+
+#slack-btn{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+
+.realButton{
+    box-shadow: 2px 2px 2px gray;
+  }
+  
+.realButton:active{
+    transform: translate(2px, 2px);
+    box-shadow: 0px 0px 0px;
+    background-color: inherit;
+    outline: none;
+  }
+
+#card-title{
+    font-family: 'Josefin Slab', serif;
+    font-size: 27px;
+    color: #000080;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 120%;
+}
+
+#card-description{
+    font-family: 'Josefin Slab', serif;
+    color: #7f7fbf;
+    font-size: 18px;
+    line-height: 115%;
+}
+
+#project-image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#project-image-1{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+hr{
+    width: 95%;
+    margin-top: -8px;
+}
+
+#cards{
+    display: inline-block;
+}
+
+.card-2{
+    float: right;
+    transform: translateY(-616px);
+}
+
+#home-link{
+    font-family: 'Josefin Slab', serif;
+    color: #7f7fbf;
+    font-size: 10px;
+    float: right;
+    margin-right: 80px;
+    transform: translateY(-30px);
+}
